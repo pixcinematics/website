@@ -1,11 +1,11 @@
 .image-gallery {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    column-gap: 20px;
-    row-gap: 20px;
+    column-gap: 10px;
+    row-gap: 10px;
     margin-top: 0;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 12px;
+    padding-right: 12px;
     background-color: rgb(255, 255, 255);
 
 }
@@ -23,8 +23,8 @@
 }
 .portfolio {
     text-align: center;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 12px;
+    padding-right: 12px;
     margin-top: 40px;
     
 }
