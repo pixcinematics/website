@@ -81,6 +81,9 @@
 
 }
 
+.image-container-profile {
+    width: 60px;
+}
 .insta-profile-pic {
     width: 60px;
     border-radius: 50%;
