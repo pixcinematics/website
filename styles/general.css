@@ -1,0 +1,19 @@
+body {
+    font-family: Roboto, Arial;
+    margin: 0;
+}
+.footer {
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 100px;
+}
+.footer-text {
+    margin-top: 0;
+    margin-bottom: 0px;
+    font-size: 13px;
+}
+.pix-cinematic {
+    margin-top: 0;
+    margin-bottom: 4px;
+    font-size: 13px;
+}

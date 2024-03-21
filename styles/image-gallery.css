@@ -1,0 +1,110 @@
+.image-gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 20px;
+    row-gap: 20px;
+    margin-top: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: rgb(255, 255, 255);
+
+}
+.img1 {
+    width: 100%;
+}
+.view-more-container {
+    text-align: center;
+    margin-bottom: 100px;
+}
+.line-break {
+    height: 1px;
+    background-color: rgb(96, 96, 96);
+
+}
+.portfolio {
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 40px;
+    
+}
+.about-me {
+    text-align: center;
+    margin-bottom: 40px;
+}
+.my-image-container {
+    margin-left: 20px;
+    width: 150px;
+}
+.my-image {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    object-position: top;
+    border-radius: 50%;
+    box-shadow: 0px 0px 14px rgba(0, 0, 0, 0.4);
+    /*border-style: solid;
+    border-width: 2px;
+    border-color: rgb(96, 96, 96);*/
+}
+.my-name {
+    font-size: 22px;
+    font-weight: 500;
+    margin-top: 15px;
+    margin-bottom: 0;
+}
+.my-info {
+    line-height: 25px;
+    margin-top: 15px;
+}
+.social-media-handles-section {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 100px;
+    margin-bottom: 200px;
+}
+.social-media-handles {
+    font-size: 22px;
+    font-weight: 500;
+}
+.instagram-handle {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.3);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 6px;
+
+}
+
+.insta-profile-pic {
+    width: 60px;
+    border-radius: 50%;
+}
+.followers-section {
+    flex: 1;
+    margin-left: 15px;
+    margin-right: 20px;
+}
+
+.follow-button {
+    background-color: rgb(61, 145, 235);
+    color: white;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    transition: background-color 0.15s;
+
+}
+.follow-button:active {
+    background-color: rgb(38, 130, 228);
+}

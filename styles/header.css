@@ -1,0 +1,11 @@
+.website-title-container {
+    text-align: center;
+    height: 32px;
+    margin-top: 0;
+    margin-bottom: 50px;
+}
+.website-title {
+    font-size: 26px;
+    font-weight: 500;
+}
+
