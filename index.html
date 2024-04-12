@@ -6,18 +6,31 @@
     <link rel="icon" href="photos/favicon.ico" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/general.css">
     <link rel="stylesheet" href="styles/header.css">
     <link rel="stylesheet" href="styles/image-gallery.css">
-    <title>PIX.CINEMATIC</title>
+    <title>pix.cinematic</title>
 </head>
 <body>
     <div class="website-title-container">
-        <p class="website-title">
+        <!--<p class="website-title">
             PIX.CINEMATIC
-        </p>
+        </p>-->
+        <img src="photos/logo.png" alt="" class="logo">
+        <div class="nav-items">
+            <a href="index.html" class="nav-item-anchor"><p class="nav-item-individual" style="font-weight: bold;">HOME</p></a>
+            <a href="blog-page.html" class="nav-item-anchor"><p class="nav-item-individual">BLOGS</p></a>
+            <a href="about.html" class="nav-item-anchor"><p class="nav-item-individual">ABOUT</p></a>
+            <a href="contact.html" class="nav-item-anchor"><p class="nav-item-individual">CONTACT</p></a>
+        </div>
     </div>
+    
+
+   
 
     <div class="image-gallery">
         <img src="photos/323718469_852703949117748_4686395099202773573_n.jpg" alt="" class="img1">
@@ -32,6 +45,16 @@
         </a>
         </p>
     </div>
+    <div class="blog-button-container">
+        <button class="blog">
+            <a href="blog-page.html" style="text-decoration: none; color: black;">
+            BLOGS
+            </a>
+        </button>
+        <marquee behavior="" direction="left" loop="" class="marquee-tag">
+            Blogs are uploaded every sunday at 9:00 PM IST
+        </marquee>
+    </div>
     <div class="line-break"></div>
     <div class="portfolio">
         <div class="my-image-conatiner">
@@ -42,7 +65,6 @@
             <p class="my-info">Greetings! I'm <b>Vaibhav Raj</b> a 16-year-old high school student who harbors a deep passion for both creativity and technology. Photography and a touch of filmmaking are my favored pastimes—I derive immense satisfaction from capturing moments and weaving narratives through visuals. Additionally, I've cultivated intermediate skills in web development, finding gratification in crafting websites that seamlessly blend form and function. Join me as I navigate and excel in these diverse realms of creativity and technology.
             </p>
         </div>
-        
     </div>
     <div class="line-break"></div>
     <div class="social-media-handles-section">
@@ -52,10 +74,25 @@
             <img src="photos/324909149_715443993531670_6586770427193460908_n.jpg" alt="" class="insta-profile-pic">
             
             <div class="followers-section">
-                <p><b>161</b> Followers</p>
+                <p>Instagram</p>
             </div>
             <div class="button-section" >
-                <a href="https://www.instagram.com/pix.cinematic/" style="text-decoration: none;">
+                <a href="https://www.instagram.com/pix.cinematic/" target="_blank" style="text-decoration: none;">
+                <button class="follow-button">
+                    Follow
+                </button>
+            </a>
+            </div>
+        </div>
+        <div class="instagram-handle">
+            
+            <img src="photos/20221016_215756.jpg" alt="" class="insta-profile-pic">
+            
+            <div class="followers-section">
+                <p>X (Twitter)</p>
+            </div>
+            <div class="button-section" >
+                <a href="https://twitter.com/VaibhavRaj70335" target="_blank" style="text-decoration: none;">
                 <button class="follow-button">
                     Follow
                 </button>
@@ -71,7 +108,6 @@
         <p class="footer-text">
             &#169; Copyright | All rights reserved
         </p>
-
     </div>
 </body>
 </html>
