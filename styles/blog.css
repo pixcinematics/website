@@ -23,7 +23,7 @@
 }
 .blog-title {
     font-weight: bold;
-    font-size: 30px;
+    font-size: 25px;
     margin-top: 10px;
     margin-bottom: 0;
 }
@@ -36,7 +36,7 @@
     background-color: black;
     color: white;
     border: noen;
-    border-radius: 2px;
+    border-radius: 3px;
     padding-top: 6px;
     padding-bottom: 6px;
     padding-left: 13px;
@@ -45,6 +45,17 @@
     font-size: 12px;
 
 }
+.blog-preview-image {
+    width: 390px;
+    max-width: 100%;
+    border-radius: 6px;
+}
 .marquee-tag {
     color: rgb(96, 96 ,96);
+}
+.blogs {
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 600px;
+    /*Margin bottom should be changed when more blogs wil be added*/
 }
